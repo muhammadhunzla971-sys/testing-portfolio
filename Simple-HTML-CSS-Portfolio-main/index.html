@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Hunzla Ishfaq - AI and Full Stack Developer Portfolio" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Hunzla | AI & Full Stack Developer</title>
+  <style>
+    .portfolio_extra {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .portfolio_extra h2 {
+      margin-bottom: 25px;
+    }
+    .skills_list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      list-style: none;
+      padding: 0;
+    }
+    .skills_list li {
+      padding: 12px 20px;
+      border: 1px solid currentColor;
+      border-radius: 8px;
+    }
+    .project_grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .project_card {
+      border: 1px solid #aaa;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: left;
+    }
+    .project_card h3 {
+      margin-bottom: 12px;
+    }
+    .project_card p {
+      line-height: 1.7;
+    }
+    .about_img {
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site_header">
+    <div class="wrapper_inner">
+      <nav class="site_header_nav">
+        <ul role="list" class="flex flex_center">
+          <li><a href="#hero">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#work">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div class="wrapper">
+        <div class="wrapper_inner">
+          <div class="text_center hero_content">
+            <h1 class="h2">Muhammad Hunzla Ishfaq</h1>
+            <p class="h5">
+              AI ENGINEER &amp; FULL STACK DEVELOPER
+            </p>
+            <p>
+              Building Intelligent Solutions Through Technology
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex_between hero_social">
+          <address>Punjab, Pakistan</address>
+
+          <ul role="list" class="flex">
+            <li>Find me online</li>
+            <li>
+              <a href="https://github.com/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                <img
+                  src="assets/icon-github.svg"
+                  alt="GitHub"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="wrapper">
+        <div class="text_center">
+          <h2>
+            Hello! I'm Hunzla, an AI enthusiast
+            and Full Stack Developer passionate
+            about creating smart applications.
+          </h2>
+        </div>
+
+        <div class="wrapper_inner">
+          <div class="about_content flex flex_around">
+
+            <figure class="about_figure text_center">
+              <img
+                width="200"
+                height="200"
+                src="assets/user.png"
+                alt="Hunzla Profile"
+                class="about_img"
+              />
+              <figcaption class="about_caption">
+                Hunzla | Developer
+              </figcaption>
+            </figure>
+
+            <p class="h5">
+              I am an Artificial Intelligence graduate
+              from Pakistan with an interest in
+              Machine Learning, Generative AI,
+              and Web Development.
+              <br /><br />
+              I enjoy building intelligent systems,
+              exploring modern technologies,
+              and solving real-world problems
+              through programming.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="portfolio_extra">
+      <div class="wrapper_inner">
+
+        <h2>My Technical Skills</h2>
+
+        <ul class="skills_list">
+          <li>Python</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Machine Learning</li>
+          <li>Deep Learning</li>
+          <li>Generative AI</li>
+          <li>Agentic AI</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="work">
+      <div class="wrapper_inner">
+
+        <div class="text_center">
+          <h2>My Projects</h2>
+          <p class="h5">
+            Sample projects showcasing AI,
+            Machine Learning and Web Development.
+          </p>
+        </div>
+
+        <div class="project_grid">
+
+          <article class="project_card">
+            <h3>AI Chatbot</h3>
+            <p>
+              A conversational AI chatbot designed
+              to answer user questions using
+              Natural Language Processing.
+            </p>
+            <p><strong>Tech:</strong> Python, NLP</p>
+          </article>
+
+          <article class="project_card">
+            <h3>Student Management System</h3>
+            <p>
+              A web-based application to manage
+              student records, courses and
+              academic information.
+            </p>
+            <p>
+              <strong>Tech:</strong>
+              HTML, CSS, JavaScript
+            </p>
+          </article>
+
+          <article class="project_card">
+            <h3>House Price Prediction</h3>
+            <p>
+              A machine learning model that
+              predicts house prices using
+              property features and data analysis.
+            </p>
+            <p>
+              <strong>Tech:</strong>
+              Python, Pandas, Scikit-learn
+            </p>
+          </article>
+
+          <article class="project_card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A responsive personal website
+              showcasing technical skills,
+              projects and professional details.
+            </p>
+            <p>
+              <strong>Tech:</strong>
+              HTML5, CSS3, JavaScript
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="wrapper">
+
+        <div class="text_left">
+          <p>
+            Have a project in mind? <br />
+            Let's build something amazing together!
+          </p>
+        </div>
+
+        <div class="wrapper_inner">
+          <h2 class="h3">Contact Me</h2>
+
+          <form id="contactForm" class="contact_form">
+
+            <div class="flex">
+              <div class="form_group">
+                <label for="name">NAME</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+
+              <div class="form_group">
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form_group">
+              <label for="message">MESSAGE</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit">
+              SEND MESSAGE
+            </button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <section id="footer">
+      <div class="wrapper">
+        <div class="text_right">
+          <p>
+            &copy; 2026 Muhammad Hunzla Ishfaq.
+            All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script>
+    document.getElementById("contactForm")
+      .addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const name =
+          document.getElementById("name").value;
+        const email =
+          document.getElementById("email").value;
+        const message =
+          document.getElementById("message").value;
+
+        const subject = encodeURIComponent(
+          "Portfolio Contact from " + name
+        );
+
+        const body = encodeURIComponent(
+          "Name: " + name +
+          "\nEmail: " + email +
+          "\n\nMessage:\n" + message
+        );
+
+        // Testing only: replace with your email later
+        window.location.href =
+          "mailto:your-email@example.com" +
+          "?subject=" + subject +
+          "&body=" + body;
+      });
+  </script>
+
+</body>
+</html>
